@@ -3,9 +3,16 @@ import React from 'react'
 
 const profile = () => {
   return (
-    <View>
-      <Text>profile</Text>
+    <View className='flex-1 bg-primary'>
+        <View style={{justifyContent: 'center', alignItems: 'center'}}>
+            <Text className='text-red-500 text-2xl font-bold mt-10'>Profile</Text>
+            </View>
+    
     </View>
+
+    
+
+    
   )
 }
 

@@ -16,7 +16,7 @@ export default function Index() {
     loading : moviesLoading, 
     error: moviesError
   } = useFetch(() => fetchMovies({
-    query: ''
+    query: '',
   }
   ))
 
@@ -47,7 +47,7 @@ export default function Index() {
           <>
           <Text className="text-lg text-white
            font-bold mt-5 mb-3">Latest Movies</Text>
-
+          
 
            <FlatList 
                 data={movies}
